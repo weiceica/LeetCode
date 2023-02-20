@@ -1,10 +1,12 @@
 #include <unordered_set>
+using namespace std;
+
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
         // basecase
         if(s.length() == 1) return 1;
-        unordered_set <char> c;
+        unordered_set<char> c;
         int l = 0;
         int result = 0;
         c.insert(s[0]);
