@@ -48,6 +48,10 @@
         "typeinfo": "cpp",
         "bitset": "cpp",
         "regex": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "__node_handle": "cpp",
+        "__split_buffer": "cpp"
     }
 }
